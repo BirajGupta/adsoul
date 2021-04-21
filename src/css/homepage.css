@@ -1,6 +1,11 @@
-/* ::-webkit-scrollbar {
-  width: 0;
-} */
+.list::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0003;
+  border-radius: 9px;
+}
 
 .wrapper {
   height: 100vh;

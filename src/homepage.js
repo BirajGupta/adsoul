@@ -18,6 +18,8 @@ const Homepage = () => {
 
   useEffect(() => {
     dispatch(requestApiData());
+
+    //fetches data for initial page load
     axios.get("https://api.npoint.io/d734975d2aee62d197ef/").then((res) => {
       setAllAppsData(res.data);
       setInitialLoad(false);
