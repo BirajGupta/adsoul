@@ -1,0 +1,61 @@
+.details-header {
+  height: 10%;
+  color: white;
+  padding: 3%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #7164ff;
+  margin: 0;
+}
+
+.details-app-wrapper {
+  display: flex;
+  margin: 4%;
+}
+
+.details-appName {
+  display: flex;
+  align-items: center;
+}
+
+.img-icon2 {
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  margin: 0.5%;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  margin: 2%;
+}
+
+td {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 1%;
+}
+
+@media screen and (max-width: 768px) {
+  th,
+  td {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  th,
+  td {
+    font-size: 0.5rem;
+  }
+
+  .details-appName {
+    font-size: 1rem;
+  }
+}
